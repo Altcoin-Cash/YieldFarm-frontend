@@ -23,8 +23,8 @@ export const INTEGERS = {
 }
 
 export const addressMap = {
-  uniswapFactory: '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95',
-  uniswapFactoryV2: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
+  uniswapFactory: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
+  uniswapFactoryV2: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
   YFI: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
   YCRV: '0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8',
   UNIAmpl: '0xc5be99a02c6857f9eac67bbce58df5572498f40c',
@@ -462,16 +462,16 @@ export const CHAIN_ID = 2330
 
 export const contractAddresses = {
   sushi: {
-    4: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
+    2330: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
   },
   masterChef: {
-    4: '0x2675f42eC760f6252660778E97Ee64Da062CE897', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
+    2330: '0x2675f42eC760f6252660778E97Ee64Da062CE897', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
   },
   weth: {
-    4: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6', // walt
+    2330: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6', // walt
   },
   xSushi: {
-    4: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
+    2330: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
   }
 }
 
@@ -481,10 +481,10 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      4: '0xb1297e255933e6c11bc72d6de2c911e4a05a18d8', // ALT-PEPE LP Token Address, orig: 0x03e6c12ef405ac3f642b9184eded8e1322de1a9e
+      2330: '0xb1297e255933e6c11bc72d6de2c911e4a05a18d8', // ALT-PEPE LP Token Address, orig: 0x03e6c12ef405ac3f642b9184eded8e1322de1a9e
     },
     tokenAddresses: {
-      4: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, i.e. "PEPI"
+      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, i.e. "PEPI"
     },
     name: 'Pepitas Ponzi',
     symbol: 'ALT-PEPE LP',
