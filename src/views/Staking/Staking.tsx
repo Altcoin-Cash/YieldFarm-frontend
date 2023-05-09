@@ -1,6 +1,6 @@
 import React from 'react'
-import {Route, Switch, useRouteMatch} from 'react-router-dom'
-import {useWallet} from 'use-wallet'
+import { Route, Switch, useRouteMatch } from 'react-router-dom'
+import { useWallet } from 'use-wallet'
 
 import chef from '../../assets/img/chef.png'
 
@@ -10,12 +10,12 @@ import PageHeader from '../../components/PageHeader'
 import WalletProviderModal from '../../components/WalletProviderModal'
 
 import useModal from '../../hooks/useModal'
-import StakeXSushi from "../StakeXSushi";
+import StakeXSushi from '../StakeXSushi'
 
 const Staking: React.FC = () => {
-  const {path} = useRouteMatch()
-  const {account} = useWallet()
-  const [onPresentWalletProviderModal] = useModal(<WalletProviderModal/>)
+  const { path } = useRouteMatch()
+  const { account } = useWallet()
+  const [onPresentWalletProviderModal] = useModal(<WalletProviderModal />)
   return (
     <Switch>
       <Page>
@@ -23,12 +23,12 @@ const Staking: React.FC = () => {
           <>
             <Route exact path={path}>
               <PageHeader
-                icon={<img src={chef} height="120"/>}
-                subtitle="Welcome to the Sushi Bar, stake Sushi to earn Sushi."
-                title="Irasshaimase!"
+                icon={<img src={chef} height="120" />}
+                subtitle="Welcome to the Pepita Bar, stake PEPI to earn PEPI."
+                title="Pepita is girlfriend if Pepe!"
               />
             </Route>
-            <StakeXSushi/>
+            <StakeXSushi />
           </>
         ) : (
           <div

@@ -28,10 +28,10 @@ const FarmCards: React.FC = () => {
   const stakedValue = useAllStakedValue()
 
   const sushiIndex = farms.findIndex(
-    ({ tokenSymbol }) => tokenSymbol === 'SUSHI',
+    ({ tokenSymbol }) => tokenSymbol === 'PEPI',
   )
 
-  console.log(stakedValue);
+  console.log(stakedValue)
 
   const sushiPrice =
     sushiIndex >= 0 && stakedValue[sushiIndex]
@@ -175,7 +175,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
                 {farm.wethAmount
                   ? (farm.wethAmount.toNumber() || 0).toLocaleString('en-US')
                   : '-'}{' '}
-                ETH
+                ALT
               </span> */}
             </StyledInsight>
           </StyledContent>

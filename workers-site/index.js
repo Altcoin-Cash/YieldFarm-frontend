@@ -1,4 +1,4 @@
-import mime from 'mime';
+import mime from 'mime'
 
 /**
  * The DEBUG flag will do two things that help during development:
@@ -9,10 +9,9 @@ import mime from 'mime';
  */
 const DEBUG = true
 
+const blockList = ['BY', 'CU', 'IR', 'IQ', 'CI', 'LR', 'KP', 'SD', 'SY', 'ZW']
 
-const blockList = ["BY","CU","IR","IQ","CI","LR","KP","SD","SY","ZW"]
-
-addEventListener('fetch', event => {
+addEventListener('fetch', (event) => {
   if (event.method === 'POST') {
     return event.respondWith(handlePostRequest(request))
   } else {
@@ -38,28 +37,27 @@ async function handlePostRequest(request) {
 }
 
 async function handleEvent(eventOG) {
-  var event = JSON.parse(JSON.stringify(eventOG));
+  var event = JSON.parse(JSON.stringify(eventOG))
 
   const country = eventOG.request.headers.get('cf-ipcountry')
-  if (blockList.includes(country)){
-    return new Response("Forbidden", { status: 403 })
+  if (blockList.includes(country)) {
+    return new Response('Forbidden', { status: 403 })
   }
 
   var url = new URL(event.request.url)
-  let endpoints = ["app", "privacy-policy","faq", "terms-of-service"]
-  let pattern = "/"
-  for (let i=0; i<endpoints.length; i++){
-    pattern += "(" + endpoints[i] + ")|"
+  let endpoints = ['app', 'privacy-policy', 'faq', 'terms-of-service']
+  let pattern = '/'
+  for (let i = 0; i < endpoints.length; i++) {
+    pattern += '(' + endpoints[i] + ')|'
   }
-  pattern = new RegExp(pattern.slice(0,pattern.length-1))
-
+  pattern = new RegExp(pattern.slice(0, pattern.length - 1))
 
   if (url.pathname.match(pattern) != null) {
-      var match = await url.pathname.match(pattern)[1];
-      url.pathname = "/";
-      if (match != null) {
-          url.search = "redirect="+ match.toString();
-      }
+    var match = await url.pathname.match(pattern)[1]
+    url.pathname = '/'
+    if (match != null) {
+      url.search = 'redirect=' + match.toString()
+    }
   }
   event.request.url = url
 
@@ -71,8 +69,6 @@ async function handleEvent(eventOG) {
    * You can add custom logic to how we fetch your assets
    * by configuring the function `mapRequestToAsset`
    */
-
-
 
   options.mapRequestToAsset = handlePrefix(pattern)
 
@@ -89,17 +85,20 @@ async function handleEvent(eventOG) {
     if (!DEBUG) {
       try {
         let notFoundResponse = await getAssetFromKV(event, {
-          mapRequestToAsset: req => new Request(`${new URL(req.url).origin}/404.html`, req),
+          mapRequestToAsset: (req) =>
+            new Request(`${new URL(req.url).origin}/404.html`, req),
         })
 
-        return new Response(notFoundResponse.body, { ...notFoundResponse, status: 404 })
+        return new Response(notFoundResponse.body, {
+          ...notFoundResponse,
+          status: 404,
+        })
       } catch (e) {}
     }
 
     return new Response(e.message || e.toString(), { status: 500 })
   }
 }
-
 
 /**
  * maps the path of incoming request to the request pathKey to look up
@@ -108,7 +107,7 @@ async function handleEvent(eventOG) {
  * the content of bucket/index.html
  * @param {Request} request incoming request
  */
-const mapRequestToAsset = request => {
+const mapRequestToAsset = (request) => {
   const parsedUrl = new URL(request.url)
   let pathname = parsedUrl.pathname
 
@@ -166,7 +165,9 @@ const getAssetFromKV = async (event, options) => {
   }
 
   if (typeof ASSET_NAMESPACE === 'undefined') {
-    throw new Error(`there is no ${ASSET_NAMESPACE} namespace bound to the script`)
+    throw new Error(
+      `there is no ${ASSET_NAMESPACE} namespace bound to the script`,
+    )
   }
 
   // determine the requestKey based on the actual file served for the incoming request
@@ -214,7 +215,8 @@ const getAssetFromKV = async (event, options) => {
     shouldEdgeCache = false
   }
   // only set max-age if explictly passed in a number as an arg
-  const shouldSetBrowserCache = typeof options.cacheControl.browserTTL === 'number'
+  const shouldSetBrowserCache =
+    typeof options.cacheControl.browserTTL === 'number'
 
   let response = null
   if (shouldEdgeCache) {
@@ -244,13 +246,19 @@ const getAssetFromKV = async (event, options) => {
     if (shouldEdgeCache) {
       response.headers.set('CF-Cache-Status', 'MISS')
       // determine Cloudflare cache behavior
-      response.headers.set('Cache-Control', `max-age=${options.cacheControl.edgeTTL}`)
+      response.headers.set(
+        'Cache-Control',
+        `max-age=${options.cacheControl.edgeTTL}`,
+      )
       event.waitUntil(cache.put(cacheKey, response.clone()))
     }
   }
   response.headers.set('Content-Type', mimeType)
   if (shouldSetBrowserCache) {
-    response.headers.set('Cache-Control', `max-age=${options.cacheControl.browserTTL}`)
+    response.headers.set(
+      'Cache-Control',
+      `max-age=${options.cacheControl.browserTTL}`,
+    )
   } else {
     response.headers.delete('Cache-Control')
   }
@@ -258,14 +266,14 @@ const getAssetFromKV = async (event, options) => {
 }
 
 function handlePrefix(prefix) {
-  return request => {
+  return (request) => {
     // compute the default (e.g. / -> index.html)
     let defaultAssetKey = mapRequestToAsset(request)
     let url = new URL(defaultAssetKey.url)
 
     // strip the prefix from the path for lookup
     let name = url.pathname.match(prefix)[1]
-    url.pathname = url.pathname.replace(prefix, "")
+    url.pathname = url.pathname.replace(prefix, '')
 
     // inherit all other props from the default request
     return new Request(url.toString(), defaultAssetKey)

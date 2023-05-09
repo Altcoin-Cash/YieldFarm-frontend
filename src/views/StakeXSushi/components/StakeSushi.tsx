@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import React, {useCallback, useState} from 'react'
+import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
 import Button from '../../../components/Button'
 import Card from '../../../components/Card'
@@ -9,29 +9,28 @@ import Label from '../../../components/Label'
 import Value from '../../../components/Value'
 import useModal from '../../../hooks/useModal'
 import useTokenBalance from '../../../hooks/useTokenBalance'
-import {getBalanceNumber} from '../../../utils/formatBalance'
+import { getBalanceNumber } from '../../../utils/formatBalance'
 import DepositModal from './DepositModal'
-import {contractAddresses} from '../../../sushi/lib/constants'
-import useEnter from "../../../hooks/useEnter";
-import useLeave from "../../../hooks/useLeave";
-import useAllowanceStaking from "../../../hooks/useAllowanceStaking";
-import useApproveStaking from "../../../hooks/useApproveStaking";
+import { contractAddresses } from '../../../sushi/lib/constants'
+import useEnter from '../../../hooks/useEnter'
+import useLeave from '../../../hooks/useLeave'
+import useAllowanceStaking from '../../../hooks/useAllowanceStaking'
+import useApproveStaking from '../../../hooks/useApproveStaking'
 import { CHAIN_ID } from '../../../sushi/lib/constants'
 
-interface StakeProps {
-}
+interface StakeProps {}
 
 const StakeSushi: React.FC<StakeProps> = ({}) => {
-  const tokenName = "SUSHI"
+  const tokenName = 'PEPI'
   const [requestedApproval, setRequestedApproval] = useState(false)
 
   const allowance = useAllowanceStaking()
-  const {onApprove} = useApproveStaking()
+  const { onApprove } = useApproveStaking()
 
   const tokenBalance = useTokenBalance(contractAddresses.sushi[CHAIN_ID])
 
-  const {onEnter} = useEnter()
-  const {onLeave} = useLeave()
+  const { onEnter } = useEnter()
+  const { onLeave } = useLeave()
 
   const [onPresentDeposit] = useModal(
     <DepositModal
@@ -60,15 +59,15 @@ const StakeSushi: React.FC<StakeProps> = ({}) => {
         <StyledCardContentInner>
           <StyledCardHeader>
             <CardIcon>👨🏻‍🍳</CardIcon>
-            <Value value={getBalanceNumber(tokenBalance)}/>
-            <Label text={`SUSHI Tokens Available`}/>
+            <Value value={getBalanceNumber(tokenBalance)} />
+            <Label text={`PEPI Tokens Available`} />
           </StyledCardHeader>
           <StyledCardActions>
             {!allowance.toNumber() ? (
               <Button
                 disabled={requestedApproval}
                 onClick={handleApprove}
-                text={`Approve SUSHI`}
+                text={`Approve PEPI`}
               />
             ) : (
               <>
@@ -77,7 +76,7 @@ const StakeSushi: React.FC<StakeProps> = ({}) => {
                   text="Convert to xSUSHI"
                   onClick={onPresentDeposit}
                 />
-                <StyledActionSpacer/>
+                <StyledActionSpacer />
               </>
             )}
           </StyledCardActions>
