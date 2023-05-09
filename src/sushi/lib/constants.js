@@ -94,6 +94,7 @@ export const supportedPools = [
     symbol: 'ALT-WATT LP',
     tokenSymbol: 'WATT',
     icon: '👑',
+  },
     {
       pid: 3,
       lpAddresses: {
