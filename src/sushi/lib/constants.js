@@ -65,8 +65,8 @@ export const supportedPools = [
       2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // Token, "xPEPI"
     },
     name: 'Pepes Ponzi',
-    symbol: 'ALT-PEPE LP',
-    tokenSymbol: 'PEPE',
+    symbol: 'xPEPI',
+    tokenSymbol: 'xPEPI',
     icon: '👑',
   },
   {
@@ -78,21 +78,21 @@ export const supportedPools = [
       2330: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // Token, "PEPI"
     },
     name: 'Pepes Ponzi',
-    symbol: 'ALT-PEPE LP',
-    tokenSymbol: 'PEPE',
+    symbol: 'PEPI',
+    tokenSymbol: 'PEPI',
     icon: '👑',
   },
   {
     pid: 2,
     lpAddresses: {
-      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // ALTPEPEToken Address,
+      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // PEPEToken Address,
     },
     tokenAddresses: {
       2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
     },
     name: 'Pepitas Ponzi',
-    symbol: 'PEPI',
-    tokenSymbol: 'PEPI',
+    symbol: 'PEPE',
+    tokenSymbol: 'PEPE',
     icon: '👑',
   },
   {
@@ -137,19 +137,6 @@ export const supportedPools = [
   },
   {
     pid: 6,
-    lpAddresses: {
-      2330: '', // PEPE LP Address,
-    },
-    tokenAddresses: {
-      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
-    },
-    name: 'Pepes Ponzi',
-    symbol: 'PEPE',
-    tokenSymbol: 'PEPE',
-    icon: '👑',
-  },
-  {
-    pid: 7,
     lpAddresses: {
       2330: '0x4e32498ea833a320d008d240f4551fca233e6ef4', // ALT-PEPI LP Address,
     },
