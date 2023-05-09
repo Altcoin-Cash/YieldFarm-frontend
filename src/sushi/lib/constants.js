@@ -458,17 +458,17 @@ SLP Address on mainnet for reference
 
 // JUICYSWAP SETTINGS
 
-export const CHAIN_ID = 4
+export const CHAIN_ID = 2330
 
 export const contractAddresses = {
   sushi: {
-    4: '0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f',
+    4: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
   },
   masterChef: {
-    4: '0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153',
+    4: '0x2675f42eC760f6252660778E97Ee64Da062CE897', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
   },
   weth: {
-    4: '0xc778417e063141139fce010982780140aa0cd5ab',
+    4: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6', // walt
   },
   xSushi: {
     4: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
@@ -481,14 +481,14 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      4: '0x03e6c12ef405ac3f642b9184eded8e1322de1a9e', // LP Token Address
+      4: '0xb1297e255933e6c11bc72d6de2c911e4a05a18d8', // ALT-PEPE LP Token Address, orig: 0x03e6c12ef405ac3f642b9184eded8e1322de1a9e
     },
     tokenAddresses: {
-      4: '0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa', // Token, i.e. "DAI"
+      4: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, i.e. "PEPI"
     },
-    name: 'TCs Party!',
-    symbol: 'DAI-ETH LP',
-    tokenSymbol: 'DAI',
+    name: 'Pepitas Ponzi',
+    symbol: 'ALT-PEPE LP',
+    tokenSymbol: 'PEPE',
     icon: '👑',
   },
 ]
