@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch, useRouteMatch } from 'react-router-dom'
 import { useWallet } from 'use-wallet'
 
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/pepita_logo.png'
 
 import Button from '../../components/Button'
 import Page from '../../components/Page'
@@ -27,7 +27,7 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn PEPI tokens by staking TCSwap SLP Tokens. Note: Current APY does not include 2/3rd PEPI emission that is locked and will be retroactively disbursed at a later date."
+                subtitle="Earn PEPI tokens by staking Swapin LP Tokens."
                 title="Select Your Favorite Menu"
               />
               <FarmCards />
