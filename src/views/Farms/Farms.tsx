@@ -27,7 +27,7 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn TC tokens by staking TCSwap SLP Tokens. Note: Current APY does not include 2/3rd TC emission that is locked and will be retroactively disbursed at a later date."
+                subtitle="Earn PEPI tokens by staking TCSwap SLP Tokens. Note: Current APY does not include 2/3rd PEPI emission that is locked and will be retroactively disbursed at a later date."
                 title="Select Your Favorite Menu"
               />
               <FarmCards />

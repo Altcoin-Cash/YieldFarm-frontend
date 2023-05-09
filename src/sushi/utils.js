@@ -57,7 +57,7 @@ export const getFarms = (sushi) => {
           tokenAddress,
           tokenSymbol,
           tokenContract,
-          earnToken: 'TC',
+          earnToken: 'PEPI',
           earnTokenAddress: sushi.contracts.sushi.options.address,
           icon,
         }),
@@ -128,8 +128,8 @@ export const approve = async (lpContract, masterChefContract, account) => {
 
 export const approveAddress = async (lpContract, address, account) => {
   return lpContract.methods
-      .approve(address, ethers.constants.MaxUint256)
-      .send({ from: account })
+    .approve(address, ethers.constants.MaxUint256)
+    .send({ from: account })
 }
 
 export const getSushiSupply = async (sushi) => {
@@ -137,7 +137,9 @@ export const getSushiSupply = async (sushi) => {
 }
 
 export const getXSushiSupply = async (sushi) => {
-  return new BigNumber(await sushi.contracts.xSushiStaking.methods.totalSupply().call())
+  return new BigNumber(
+    await sushi.contracts.xSushiStaking.methods.totalSupply().call(),
+  )
 }
 
 export const stake = async (masterChefContract, pid, amount, account) => {
@@ -204,24 +206,20 @@ export const redeem = async (masterChefContract, account) => {
 export const enter = async (contract, amount, account) => {
   debugger
   return contract.methods
-      .enter(
-          new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
-      )
-      .send({ from: account })
-      .on('transactionHash', (tx) => {
-        console.log(tx)
-        return tx.transactionHash
-      })
+    .enter(new BigNumber(amount).times(new BigNumber(10).pow(18)).toString())
+    .send({ from: account })
+    .on('transactionHash', (tx) => {
+      console.log(tx)
+      return tx.transactionHash
+    })
 }
 
 export const leave = async (contract, amount, account) => {
   return contract.methods
-      .leave(
-          new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
-      )
-      .send({ from: account })
-      .on('transactionHash', (tx) => {
-        console.log(tx)
-        return tx.transactionHash
-      })
+    .leave(new BigNumber(amount).times(new BigNumber(10).pow(18)).toString())
+    .send({ from: account })
+    .on('transactionHash', (tx) => {
+      console.log(tx)
+      return tx.transactionHash
+    })
 }

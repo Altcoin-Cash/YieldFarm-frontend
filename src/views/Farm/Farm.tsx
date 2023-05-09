@@ -15,23 +15,16 @@ import Stake from './components/Stake'
 
 const Farm: React.FC = () => {
   const { farmId } = useParams()
-  const {
-    pid,
-    lpToken,
-    lpTokenAddress,
-    tokenAddress,
-    earnToken,
-    name,
-    icon,
-  } = useFarm(farmId) || {
-    pid: 0,
-    lpToken: '',
-    lpTokenAddress: '',
-    tokenAddress: '',
-    earnToken: '',
-    name: '',
-    icon: '',
-  }
+  const { pid, lpToken, lpTokenAddress, tokenAddress, earnToken, name, icon } =
+    useFarm(farmId) || {
+      pid: 0,
+      lpToken: '',
+      lpTokenAddress: '',
+      tokenAddress: '',
+      earnToken: '',
+      name: '',
+      icon: '',
+    }
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -68,17 +61,13 @@ const Farm: React.FC = () => {
           </StyledCardWrapper>
           <Spacer />
           <StyledCardWrapper>
-            <Stake
-              lpContract={lpContract}
-              pid={pid}
-              tokenName={lpToken}
-            />
+            <Stake lpContract={lpContract} pid={pid} tokenName={lpToken} />
           </StyledCardWrapper>
         </StyledCardsWrapper>
         <Spacer size="lg" />
         <StyledInfo>
           ⭐️ Every time you stake and unstake LP tokens, the contract will
-          automagically harvest TC rewards for you!
+          automagically harvest PEPI rewards for you!
         </StyledInfo>
         <Spacer size="md" />
         <StyledLink

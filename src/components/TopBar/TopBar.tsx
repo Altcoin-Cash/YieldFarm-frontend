@@ -14,7 +14,18 @@ interface TopBarProps {
 const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
   return (
     <StyledTopBar>
-      <div style={{ backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '3px', marginBottom: '10px' }}>This is a test project on Rinkeby test net. There is no TC token on the mainnet. </div>
+      <div
+        style={{
+          backgroundColor: 'black',
+          color: 'white',
+          textAlign: 'center',
+          padding: '3px',
+          marginBottom: '10px',
+        }}
+      >
+        This is a test project on Rinkeby test net. There is no PEPI token on
+        the mainnet.{' '}
+      </div>
       <Container size="lg">
         <StyledTopBarInner>
           <StyledLogoWrapper>

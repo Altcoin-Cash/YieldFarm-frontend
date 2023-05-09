@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="TC Farm is Ready"
-        subtitle="Stake TcSwap LP tokens to claim your very own TC!"
+        title="PEPI Farm is Ready"
+        subtitle="Stake TcSwap LP tokens to claim your very own PEPI!"
       />
 
       <Container>
@@ -22,8 +22,8 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: TC-ETH LP token pool yields 4.8x more token
-        rewards per block.
+        🏆<b>Pro Tip</b>: PEPI-ETH LP token pool yields 4.8x more token rewards
+        per block.
       </StyledInfo>
       <Spacer size="lg" />
       <div
