@@ -23,8 +23,7 @@ const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
           marginBottom: '10px',
         }}
       >
-        This is a test project on Rinkeby test net. There is no PEPI token on
-        the mainnet.{' '}
+        Pepita is Pepe's Girlfriend. We are PepeTokensFamily!{' '}
       </div>
       <Container size="lg">
         <StyledTopBarInner>

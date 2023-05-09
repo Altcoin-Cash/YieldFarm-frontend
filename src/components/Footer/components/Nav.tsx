@@ -16,17 +16,17 @@ const Nav: React.FC = () => {
       >
         SushiSwap PEPI-ALT
       </StyledLink> */}
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://discord.gg/PT2tDQpRe4">
         Discord
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Github
+      <StyledLink target="_blank" href="https://swapin.co">
+        Swapin
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://twitter.com/PepeTokensFam">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Medium
+      <StyledLink target="_blank" href="https://t.me/PepeTokensOfficial">
+        Telegram
       </StyledLink>
     </StyledNav>
   )
