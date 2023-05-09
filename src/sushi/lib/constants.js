@@ -56,45 +56,45 @@ export const contractAddresses = {
 }
 
 export const supportedPools = [
-  {
-    pid: 0,
-    lpAddresses: {
-      2330: '', //  LP Token Address,
-    },
-    tokenAddresses: {
-      2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // Token, "xPEPI"
-    },
-    name: 'Pepes Ponzi',
-    symbol: 'xPEPI',
-    tokenSymbol: 'xPEPI',
-    icon: '👱',
-  },
-  {
-    pid: 1,
-    lpAddresses: {
-      2330: '', //  LP Token Address,
-    },
-    tokenAddresses: {
-      2330: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // Token, "PEPI"
-    },
-    name: 'Pepes Ponzi',
-    symbol: 'PEPI',
-    tokenSymbol: 'PEPI',
-    icon: '👧',
-  },
-  {
-    pid: 2,
-    lpAddresses: {
-      2330: '', // PEPEToken Address,
-    },
-    tokenAddresses: {
-      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
-    },
-    name: 'Pepitas Ponzi',
-    symbol: 'PEPE',
-    tokenSymbol: 'PEPE',
-    icon: '🤠',
-  },
+  //  {
+  //    pid: 0,
+  //    lpAddresses: {
+  //      2330: '', //  LP Token Address,
+  //    },
+  //    tokenAddresses: {
+  //      2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // Token, "xPEPI"
+  //   },
+  //   name: 'Pepes Ponzi',
+  //   symbol: 'xPEPI',
+  //   tokenSymbol: 'xPEPI',
+  //   icon: '👱',
+  // },
+  // {
+  //   pid: 1,
+  //   lpAddresses: {
+  //     2330: '', //  LP Token Address,
+  //   },
+  //   tokenAddresses: {
+  //     2330: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // Token, "PEPI"
+  //   },
+  //   name: 'Pepes Ponzi',
+  //  symbol: 'PEPI',
+  //  tokenSymbol: 'PEPI',
+  //   icon: '👧',
+  //  },
+  //  {
+  //    pid: 2,
+  //    lpAddresses: {
+  //      2330: '', // PEPEToken Address,
+  //    },
+  //    tokenAddresses: {
+  //      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
+  //   },
+  //    name: 'Pepitas Ponzi',
+  //    symbol: 'PEPE',
+  //   tokenSymbol: 'PEPE',
+  //   icon: '🤠',
+  //  },
   {
     pid: 3,
     lpAddresses: {
