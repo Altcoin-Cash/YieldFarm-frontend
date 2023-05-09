@@ -106,7 +106,7 @@ export const supportedPools = [
     name: 'Pepes Ponzi',
     symbol: 'ALT-PEPE LP',
     tokenSymbol: 'PEPE',
-    icon: '🤠👑',
+    icon: '🤠',
   },
   {
     pid: 4,
@@ -119,7 +119,7 @@ export const supportedPools = [
     name: 'Altcoins Ponzi',
     symbol: 'ALT-WATT LP',
     tokenSymbol: 'WATT',
-    icon: '👑⚡️',
+    icon: '⚡️',
   },
   {
     pid: 5,
@@ -133,7 +133,7 @@ export const supportedPools = [
     name: 'Altcoins Ponzi',
     symbol: 'WATT-PEPE LP',
     tokenSymbol: 'PEPE',
-    icon: '⚡️🤠',
+    icon: '⚡️',
   },
   {
     pid: 6,
@@ -146,6 +146,6 @@ export const supportedPools = [
     name: 'Pepitas Ponzi',
     symbol: 'ALT-PEPI',
     tokenSymbol: 'PEPI',
-    icon: '👑👧',
+    icon: '👧',
   },
 ]
