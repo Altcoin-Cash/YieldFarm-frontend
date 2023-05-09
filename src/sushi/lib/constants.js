@@ -95,32 +95,31 @@ export const supportedPools = [
     tokenSymbol: 'WATT',
     icon: '👑',
   },
-    {
-      pid: 3,
-      lpAddresses: {
-        2330: '0xdc1f931aefba25d1ad442c7235d9aebaf51c9d01', // WATT-PEPE LP Token Address, orig: 0x03e6c12ef405ac3f642b9184eded8e1322de1a9e
-      },
-      tokenAddresses: {
-        2330: '0x6645143e49B3a15d8F205658903a55E520444698', // Token, i.e. "PEPI"
-        2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, i.e. "PEPI"
-      },
-      name: 'Altcoins Ponzi',
-      symbol: 'WATT-PEPE LP',
-      tokenSymbol: 'PEPE',
-      icon: '👑',
+  {
+    pid: 3,
+    lpAddresses: {
+      2330: '0xdc1f931aefba25d1ad442c7235d9aebaf51c9d01', // WATT-PEPE LP Token Address, orig: 0x03e6c12ef405ac3f642b9184eded8e1322de1a9e
     },
-    {
-      pid: 4,
-      lpAddresses: {
-        2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // PEPE Token Address, orig: 0x03e6c12ef405ac3f642b9184eded8e1322de1a9e
-      },
-      tokenAddresses: {
-        2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, i.e. "PEPI"
-      },
-      name: 'Pepes Ponzi',
-      symbol: 'PEPE',
-      tokenSymbol: 'PEPE',
-      icon: '👑',
+    tokenAddresses: {
+      2330: '0x6645143e49B3a15d8F205658903a55E520444698', // Token, i.e. "PEPI"
+      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, i.e. "PEPI"
     },
+    name: 'Altcoins Ponzi',
+    symbol: 'WATT-PEPE LP',
+    tokenSymbol: 'PEPE',
+    icon: '👑',
+  },
+  {
+    pid: 4,
+    lpAddresses: {
+      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // PEPE Token Address, orig: 0x03e6c12ef405ac3f642b9184eded8e1322de1a9e
+    },
+    tokenAddresses: {
+      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, i.e. "PEPI"
+    },
+    name: 'Pepes Ponzi',
+    symbol: 'PEPE',
+    tokenSymbol: 'PEPE',
+    icon: '👑',
   },
 ]
