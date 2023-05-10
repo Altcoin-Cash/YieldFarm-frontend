@@ -23,7 +23,7 @@ export const INTEGERS = {
 }
 
 export const addressMap = {
-  uniswapFactory: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
+  uniswapFactory: '',
   uniswapFactoryV2: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
   PEPE: '0xD350EcD60912913cc15d312ef38adECa909eCDD5',
   PEPI: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D',
