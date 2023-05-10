@@ -4,11 +4,27 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledLink
-        target="_blank"
-        href="https://rinkeby.etherscan.io/address/0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153#code"
-      >
-        JuiceMaster Contract
+      Add Chains:
+      <StyledLink target="_blank" href="https://chainlist.org/chain/2330">
+        ALT
+      </StyledLink>
+      <StyledLink target="_blank" href="https://chainlist.org/chain/1773">
+        GRAMS
+      </StyledLink>
+      <StyledLink target="_blank" href="https://chainlist.org/chain/800001">
+        OCTA
+      </StyledLink>
+      <StyledLink target="_blank" href="https://chainlist.org/chain/1987">
+        EGEM
+      </StyledLink>
+      <StyledLink target="_blank" href="https://chainlist.org/chain/1313114">
+        ETHO
+      </StyledLink>
+      <StyledLink target="_blank" href="https://chainlist.org/chain/2000">
+        DOGE
+      </StyledLink>
+      <StyledLink target="_blank" href="https://chainlist.org/chain/250">
+        FTM
       </StyledLink>
       {/*<StyledLink
         target="_blank"
