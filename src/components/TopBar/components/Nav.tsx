@@ -14,6 +14,15 @@ const Nav: React.FC = () => {
       <StyledAbsoluteLink href="https://swapin.co/" target="_blank">
         Buy
       </StyledAbsoluteLink>
+      <StyledLink target="_blank" href="https://discord.gg/PT2tDQpRe4">
+        Discord
+      </StyledLink>
+      <StyledLink target="_blank" href="https://twitter.com/PepeTokensFam">
+        Twitter
+      </StyledLink>
+      <StyledLink target="_blank" href="https://t.me/PepeTokensOfficial">
+        Telegram
+      </StyledLink>
     </StyledNav>
   )
 }
