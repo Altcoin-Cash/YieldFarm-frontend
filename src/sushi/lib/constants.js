@@ -26,7 +26,7 @@ export const addressMap = {
   uniswapFactory: '',
   uniswapFactoryV2: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
   PEPE: '0xD350EcD60912913cc15d312ef38adECa909eCDD5',
-  PEPI: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D',
+  PEPI: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88',
   WETH: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6',
   UNIRouter: '0xae168Ce47cebca9abbC5107a58df0532f1afa4d6',
 }
@@ -42,7 +42,7 @@ export const CHAIN_ID = 2330
 
 export const contractAddresses = {
   sushi: {
-    2330: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
+    2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
   },
   masterChef: {
     2330: '0xA44F956E4FEA5a5840c4B457c457234c79f99A19', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
@@ -75,7 +75,7 @@ export const supportedPools = [
   //     2330: '', //  LP Token Address,
   //   },
   //   tokenAddresses: {
-  //     2330: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // Token, "PEPI"
+  //     2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // Token, "PEPI"
   //   },
   //   name: 'Pepes Ponzi',
   //  symbol: 'PEPI',
@@ -141,7 +141,7 @@ export const supportedPools = [
       2330: '0x4e32498ea833a320d008d240f4551fca233e6ef4', // ALT-PEPI LP Address,
     },
     tokenAddresses: {
-      2330: '0xbeeFB44E56885e7ACdb007D2377788daafbFca2D', // Token, "PEPI"
+      2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // Token, "PEPI"
     },
     name: 'Pepitas Ponzi',
     symbol: 'ALT-PEPI',
