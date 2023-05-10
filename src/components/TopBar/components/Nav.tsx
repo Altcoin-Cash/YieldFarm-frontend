@@ -11,6 +11,21 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/farms">
         Menu
       </StyledLink>
+      <StyledAbsoluteLink href="https://discord.gg/PT2tDQpRe4" target="_blank">
+        Discord
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
+        href="https://twitter.com/PepeTokensFam"
+        target="_blank"
+      >
+        Twitter
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
+        href="https://t.me/PepeTokensOfficial"
+        target="_blank"
+      >
+        Telegram
+      </StyledAbsoluteLink>
       <StyledAbsoluteLink href="https://swapin.co/" target="_blank">
         Buy
       </StyledAbsoluteLink>
