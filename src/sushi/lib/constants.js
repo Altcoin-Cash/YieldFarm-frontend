@@ -45,7 +45,7 @@ export const contractAddresses = {
     2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
   },
   masterChef: {
-    2330: '0xA44F956E4FEA5a5840c4B457c457234c79f99A19', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
+    2330: '0x0091D19AFE372372c32b7daedB402d5A0CCaA6Db', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
   },
   weth: {
     2330: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6', // walt
