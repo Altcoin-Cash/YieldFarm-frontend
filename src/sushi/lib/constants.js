@@ -136,9 +136,9 @@ export const supportedPools = [
     icon: '⚡️',
   },
   {
-    pid: 6,
+    pid: 7,
     lpAddresses: {
-      2330: '0x4e32498ea833a320d008d240f4551fca233e6ef4', // ALT-PEPI LP Address,
+      2330: '0x4a0e11ebbf6cf1050b10cd7f34d71f7aa075058e', // ALT-PEPI LP Address,
     },
     tokenAddresses: {
       2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // Token, "PEPI"
