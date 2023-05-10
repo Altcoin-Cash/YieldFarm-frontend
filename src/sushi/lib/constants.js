@@ -20,7 +20,7 @@ export const INTEGERS = {
     '115792089237316195423570985008687907853269984665640564039457584007913129639935',
   ), // 2**256-1
   INTEREST_RATE_BASE: new BigNumber('1e18'),
-},
+}
 
 export const addressMap = {
   uniswapFactory: '',
@@ -29,8 +29,12 @@ export const addressMap = {
   PEPI: {
     2330:'0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', 
     1773:'0x423d3EDBE3Ef7EaD5a16C78e6c7f748A97462f41',
+  }
+  WETH: {
+    2330: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6',
+  1773: '0x444a294EA9858A1c61624300978D9b5C49Ba8873',
+  }
 
-  WETH: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6',
   UNIRouter: '0xae168Ce47cebca9abbC5107a58df0532f1afa4d6',
 },
 
@@ -51,7 +55,7 @@ export const contractAddresses = {
   },
   masterChef: {
     2330: '0x0091D19AFE372372c32b7daedB402d5A0CCaA6Db', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
-    1773:'',
+    1773:'0x1B582CBc69B2024b679561Ef269b92C0531A2Fc5',
   },
   weth: {
     2330: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6', // walt
