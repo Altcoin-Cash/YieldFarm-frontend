@@ -26,7 +26,10 @@ export const addressMap = {
   uniswapFactory: '',
   uniswapFactoryV2: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
   PEPE: '0xD350EcD60912913cc15d312ef38adECa909eCDD5',
-  PEPI: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88',
+  PEPI: {
+    2330:'0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', 
+    1773:'0x423d3EDBE3Ef7EaD5a16C78e6c7f748A97462f41',
+
   WETH: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6',
   UNIRouter: '0xae168Ce47cebca9abbC5107a58df0532f1afa4d6',
 }
@@ -39,16 +42,20 @@ export const addressMap = {
 // JUICYSWAP SETTINGS
 
 export const CHAIN_ID = 2330
+export const CHAIN_ID = 1773
 
 export const contractAddresses = {
   sushi: {
     2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
+    1773:'0x423d3EDBE3Ef7EaD5a16C78e6c7f748A97462f41',
   },
   masterChef: {
     2330: '0x0091D19AFE372372c32b7daedB402d5A0CCaA6Db', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
+    1773:'',
   },
   weth: {
     2330: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6', // walt
+    1773:'0x444a294EA9858A1c61624300978D9b5C49Ba8873',
   },
   xSushi: {
     2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // NOTE: Not in use
@@ -56,19 +63,19 @@ export const contractAddresses = {
 }
 
 export const supportedPools = [
-  //  {
-  //    pid: 0,
-  //    lpAddresses: {
-  //      2330: '', //  LP Token Address,
-  //    },
-  //    tokenAddresses: {
-  //      2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // Token, "xPEPI"
-  //   },
-  //   name: 'Pepes Ponzi',
-  //   symbol: 'xPEPI',
-  //   tokenSymbol: 'xPEPI',
-  //   icon: '👱',
-  // },
+    {
+      pid: 0,
+     lpAddresses: {
+       1773: '0x71bcE305efF1B4a7fB2c4284E636cbbFb571E527', //  LP Token Address,
+     },
+    tokenAddresses: {
+      1773: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
+   },
+   name: 'Pepes Ponzi',
+   symbol: 'GRAMS-PEPE',
+   tokenSymbol: 'GRAMS-PEPE',
+   icon: '👱',
+  },
   // {
   //   pid: 1,
   //   lpAddresses: {
