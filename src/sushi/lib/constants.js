@@ -80,6 +80,19 @@ export const supportedPools = [
     tokenSymbol: 'GRAMS-PEPE',
     icon: '👱',
   },
+  {
+    pid: 1,
+    lpAddresses: {
+      1773: '0x67413469dB1c2D45EBcE8C1A9F3Ee108bC4Fb036', //  LP Token Address,
+    },
+    tokenAddresses: {
+      1773: '0x423d3EDBE3Ef7EaD5a16C78e6c7f748A97462f41', // Token, "PEPE"
+    },
+    name: 'Pepitas Ponzi',
+    symbol: 'GRAMS-PEPI',
+    tokenSymbol: 'GRAMS-PEPI',
+    icon: '👧',
+  },
   // {
   //   pid: 1,
   //   lpAddresses: {
