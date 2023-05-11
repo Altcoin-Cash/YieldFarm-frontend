@@ -93,6 +93,19 @@ export const supportedPools = [
     tokenSymbol: 'GRAMS-PEPI',
     icon: '👧',
   },
+  {
+    pid: 2,
+    lpAddresses: {
+      1773: '0xbc4ae2fb3BbD58155F7fC668Eb73Ea157A2Efbc3', //  LP Token Address,
+    },
+    tokenAddresses: {
+      1773: '0xA1b250ca9D350953F43ED20B44b85B608bf10E48', // Token, "DISCO"
+    },
+    name: 'Pepitas Ponzi',
+    symbol: 'GRAMS-DISCO',
+    tokenSymbol: 'GRAMS-DISCO',
+    icon: '👧',
+  },
   // {
   //   pid: 1,
   //   lpAddresses: {
