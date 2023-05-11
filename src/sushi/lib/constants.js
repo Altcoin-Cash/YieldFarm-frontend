@@ -148,4 +148,17 @@ export const supportedPools = [
     tokenSymbol: 'PEPI',
     icon: '👧',
   },
+  {
+    pid: 8,
+    lpAddresses: {
+      2330: '0xb9707ebc943ad698852dca99dab8c973e1cd6bd8', // ALT-MALT LP Address,
+    },
+    tokenAddresses: {
+      2330: '0xaF5D066Eb3e4147325d3ed23F94bc925fbf3B9EF', // Token, "MALT"
+    },
+    name: 'Peoples Choice',
+    symbol: 'ALT-MALT',
+    tokenSymbol: 'MALT',
+    icon: '👧',
+  },
 ]
