@@ -8,10 +8,10 @@ const Nav: React.FC = () => {
       <StyledLink target="_blank" href="https://chainlist.org/chain/2330">
         ALT
       </StyledLink>
-      Coming:
       <StyledLink target="_blank" href="https://chainlist.org/chain/1773">
         GRAMS
       </StyledLink>
+      Coming:
       <StyledLink target="_blank" href="https://chainlist.org/chain/800001">
         OCTA
       </StyledLink>
