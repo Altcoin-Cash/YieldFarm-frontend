@@ -46,8 +46,8 @@ export const addressMap = {
 // JUICYSWAP SETTINGS
 
 export const CHAIN_ID = {
-  2330
-  1773
+  2330,
+  1773,
 } 
 
 export const contractAddresses = {
