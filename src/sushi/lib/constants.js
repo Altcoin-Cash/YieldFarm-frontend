@@ -101,7 +101,7 @@ export const supportedPools = [
     tokenAddresses: {
       1773: '0xA1b250ca9D350953F43ED20B44b85B608bf10E48', // Token, "DISCO"
     },
-    name: 'Pepitas Ponzi',
+    name: 'Disco Party',
     symbol: 'GRAMS-DISCO',
     tokenSymbol: 'GRAMS-DISCO',
     icon: '👧',
