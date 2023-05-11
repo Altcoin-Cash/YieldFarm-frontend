@@ -62,6 +62,7 @@ export const contractAddresses = {
   },
   xSushi: {
     2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // NOTE: Not in use
+    1773: '',
   },
 }
 
