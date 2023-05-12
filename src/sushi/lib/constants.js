@@ -38,7 +38,7 @@ export const addressMap = {
   UNIRouter: '0xae168Ce47cebca9abbC5107a58df0532f1afa4d6',
 }
 
-//     icon: '🍣','🦄','🐢','🐌','🦆','🦍','🦑','🐸',
+//     icon: '🍣','🦄','🐢','🐌','🦆','🦍','🦑','🐸',🤠
 //     icon: '🐥','🍄','🐗','🐍','🐋','🦏','🐂','🦈' '🍠''🐊👨🏻‍🍳',
 //  },
 // ]
@@ -78,7 +78,7 @@ export const supportedPools = [
     name: 'Pepes Ponzi',
     symbol: 'GRAMS-PEPE',
     tokenSymbol: 'GRAMS-PEPE',
-    icon: '👱',
+    icon: '🤠',
   },
   {
     pid: 1,
@@ -104,7 +104,7 @@ export const supportedPools = [
     name: 'Disco Party',
     symbol: 'GRAMS-DISCO',
     tokenSymbol: 'GRAMS-DISCO',
-    icon: '👧',
+    icon: '🍄',
   },
   {
     pid: 3,
