@@ -159,7 +159,7 @@ export const supportedPools = [
     name: 'Peoples Choice',
     symbol: 'ALT-MALT',
     tokenSymbol: 'MALT',
-    icon: '👧',
+    icon: '🦄',
   },
   {
     pid: 9,
@@ -172,6 +172,6 @@ export const supportedPools = [
     name: 'Peoples Choice',
     symbol: 'ALT-SWAPD',
     tokenSymbol: 'SWAPD',
-    icon: '👧',
+    icon: '🦄',
   },
 ]
