@@ -161,4 +161,17 @@ export const supportedPools = [
     tokenSymbol: 'MALT',
     icon: '👧',
   },
+  {
+    pid: 9,
+    lpAddresses: {
+      2330: '0x044e22b6276424d0b6e014fd9e259d03c7b031bb', // ALT-SWAPD LP Address,
+    },
+    tokenAddresses: {
+      2330: '0x67e7ebdA5CBA73f5830538B03E678A1b45517dd7', // Token, "SWAPD"
+    },
+    name: 'Peoples Choice',
+    symbol: 'ALT-SWAPD',
+    tokenSymbol: 'SWAPD',
+    icon: '👧',
+  },
 ]
