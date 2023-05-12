@@ -106,19 +106,19 @@ export const supportedPools = [
     tokenSymbol: 'GRAMS-DISCO',
     icon: '👧',
   },
-  // {
-  //   pid: 1,
-  //   lpAddresses: {
-  //     2330: '', //  LP Token Address,
-  //   },
-  //   tokenAddresses: {
-  //     2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // Token, "PEPI"
-  //   },
-  //   name: 'Pepes Ponzi',
-  //  symbol: 'PEPI',
-  //  tokenSymbol: 'PEPI',
-  //   icon: '👧',
-  //  },
+  {
+    pid: 3,
+    lpAddresses: {
+      1773: '0xF037D13804C0Bcaa1cBBFe410F09444F3749b991', // ALT-SWAPD LP Address,
+    },
+    tokenAddresses: {
+      1773: '0x67e7ebdA5CBA73f5830538B03E678A1b45517dd7', // Token, "SWAPD"
+    },
+    name: 'Peoples Choice',
+    symbol: 'GRAMS-SWAPD',
+    tokenSymbol: 'SWAPD',
+    icon: '🦄',
+  },
   //  {
   //    pid: 2,
   //    lpAddresses: {
