@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="PEPI Farm is Ready!"
+        title="PEPI Farm is Ready! "
         subtitle="Stake Swapin LP tokens to claim your very own PEPI!"
       />
 
