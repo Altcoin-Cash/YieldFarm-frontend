@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: PEPI-ETHO LP token pool yields 4.20x more token
+        🏆<b>Pro Tip</b>: PEPI-OCTA LP token pool yields 4.20x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
