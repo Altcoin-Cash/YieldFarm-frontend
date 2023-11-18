@@ -134,4 +134,17 @@ export const supportedPools = [
     tokenSymbol: 'SWAPD',
     icon: '🦄',
   },
+  {
+    pid: 3,
+    lpAddresses: {
+      1313114: '0x59c8Bc25474aC63371b5999FaE44b6c6eA1bb0E9', // ETHO-PEPI LP Address,
+    },
+    tokenAddresses: {
+      1313114: '0xa33c57c0D66d8d243796f74958A2904B90b97245', // Token, "PEPI"
+    },
+    name: 'Pepitas Ponzi',
+    symbol: 'PEPE-PEPI',
+    tokenSymbol: 'PEPI',
+    icon: '👧',
+  },
 ]
