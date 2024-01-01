@@ -27,7 +27,7 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn PEPI tokens by staking Swapin LP Tokens."
+                subtitle="Earn PEPI tokens by staking PEPE LP Tokens."
                 title="Select Your Favorite Menu"
               />
               <FarmCards />
