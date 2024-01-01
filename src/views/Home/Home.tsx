@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="PEPI Farm is Ready!"
+        title="PEPITA Farm is Ready!"
         subtitle="Stake Swapin LP tokens to claim your very own PEPI!"
       />
 
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: PEPI-ALT LP token pool yields 4.20x more token rewards
+        🏆<b>Pro Tip</b>: PEPI-FTM LP token pool yields 4.20x more token rewards
         per block.
       </StyledInfo>
       <Spacer size="lg" />

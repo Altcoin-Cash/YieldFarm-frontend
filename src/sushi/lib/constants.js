@@ -26,8 +26,8 @@ export const addressMap = {
   uniswapFactory: '',
   uniswapFactoryV2: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
   PEPE: '0xD350EcD60912913cc15d312ef38adECa909eCDD5',
-  PEPI: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88',
-  WETH: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6',
+  PEPI: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be',
+  WETH: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
   UNIRouter: '0xae168Ce47cebca9abbC5107a58df0532f1afa4d6',
 }
 
@@ -38,20 +38,20 @@ export const addressMap = {
 
 // JUICYSWAP SETTINGS
 
-export const CHAIN_ID = 2330
+export const CHAIN_ID = 250
 
 export const contractAddresses = {
   sushi: {
-    2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // PEPI, orig: 0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f
+    250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // PEPI, PepitaV2_flattened.sol
   },
   masterChef: {
-    2330: '0x0091D19AFE372372c32b7daedB402d5A0CCaA6Db', // Pepitamaster, orig: 0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153
+    250: '0x21980220ba546B0579AF060D502465e664d17b88', // Pepitamaster
   },
   weth: {
-    2330: '0x48721ADeFE5b97101722c0866c2AffCE797C32b6', // walt
+    250: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83', // wftm
   },
   xSushi: {
-    2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // NOTE: Not in use
+    250: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // NOTE: Not in use
   },
 }
 
@@ -96,56 +96,29 @@ export const supportedPools = [
   //   icon: '🤠',
   //  },
   {
-    pid: 3,
+    pid: 0,
     lpAddresses: {
-      2330: '0xb1297e255933e6c11bc72d6de2c911e4a05a18d8', // ALT-PEPE LP Token Address,
+      250: '0x9AC2837e3427CF78239D1cA09898e475F9E246C3', // FTM-PEPE LP Token Address,
     },
     tokenAddresses: {
-      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
+      250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
     },
     name: 'Pepes Ponzi',
-    symbol: 'ALT-PEPE LP',
+    symbol: 'FTM-PEPE Swapin LP',
     tokenSymbol: 'PEPE',
     icon: '🤠',
   },
   {
-    pid: 4,
+    pid: 1,
     lpAddresses: {
-      2330: '0xb2F8e147d6a2570b19d1731401DDD5A4F62e2C33', // ALT-WATT LP Token Address,
+      250: '0x8029488c2A739b43aC2AB89e83B9a6738a531f72', // FTM-PEPE LP Token Address,
     },
     tokenAddresses: {
-      2330: '0x6645143e49B3a15d8F205658903a55E520444698', // Token, "WATT"
+      250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
     },
-    name: 'Altcoins Ponzi',
-    symbol: 'ALT-WATT LP',
-    tokenSymbol: 'WATT',
-    icon: '⚡️',
-  },
-  {
-    pid: 5,
-    lpAddresses: {
-      2330: '0xdc1f931aefba25d1ad442c7235d9aebaf51c9d01', // WATT-PEPE LP Token Address,
-    },
-    tokenAddresses: {
-      2330: '0x6645143e49B3a15d8F205658903a55E520444698', // Token, "WATT"
-      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token,  "PEPE"
-    },
-    name: 'Altcoins Ponzi',
-    symbol: 'WATT-PEPE LP',
+    name: 'Pepes Ponzi',
+    symbol: 'FTM-PEPE Spooky LP',
     tokenSymbol: 'PEPE',
-    icon: '⚡️',
-  },
-  {
-    pid: 7,
-    lpAddresses: {
-      2330: '0x4a0e11ebbf6cf1050b10cd7f34d71f7aa075058e', // ALT-PEPI LP Address,
-    },
-    tokenAddresses: {
-      2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // Token, "PEPI"
-    },
-    name: 'Pepitas Ponzi',
-    symbol: 'ALT-PEPI',
-    tokenSymbol: 'PEPI',
-    icon: '👧',
+    icon: '🤠',
   },
 ]

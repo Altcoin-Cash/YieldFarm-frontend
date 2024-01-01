@@ -4,28 +4,28 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      Add Chains:
-      <StyledLink target="_blank" href="https://chainlist.org/chain/2330">
-        ALT
+      <StyledLink target="_blank" href="https://chainlist.org/chain/250">
+        Current: FTM
+      </StyledLink>
+      Go to:
+      <StyledLink target="_blank" href="https://alt.pepetokens.fun/">
+        ALT Altcoinchain
+      </StyledLink>
+      <StyledLink target="_blank" href="https://grams.pepetokens.fun/">
+        GRAMS Partychain
+      </StyledLink>
+      <StyledLink target="_blank" href="https://etho.pepetokens.fun/">
+        ETHO protocol
       </StyledLink>
       Coming:
-      <StyledLink target="_blank" href="https://chainlist.org/chain/1773">
-        GRAMS
-      </StyledLink>
       <StyledLink target="_blank" href="https://chainlist.org/chain/800001">
         OCTA
       </StyledLink>
       <StyledLink target="_blank" href="https://chainlist.org/chain/1987">
         EGEM
       </StyledLink>
-      <StyledLink target="_blank" href="https://chainlist.org/chain/1313114">
-        ETHO
-      </StyledLink>
       <StyledLink target="_blank" href="https://chainlist.org/chain/2000">
         DOGE
-      </StyledLink>
-      <StyledLink target="_blank" href="https://chainlist.org/chain/250">
-        FTM
       </StyledLink>
     </StyledNav>
   )
