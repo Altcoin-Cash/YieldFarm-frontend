@@ -121,4 +121,17 @@ export const supportedPools = [
     tokenSymbol: 'PEPE',
     icon: '🤠',
   },
+  {
+    pid: 2,
+    lpAddresses: {
+      250: '0x642dcea82AE9fBD28f0eC781A1B31f79fC69566F', // FTM-PEPI LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPE"
+    },
+    name: 'Pepitas Ponzi',
+    symbol: 'FTM-PEPI Spooky LP',
+    tokenSymbol: 'PEPI',
+    icon: '🤠',
+  },
 ]
