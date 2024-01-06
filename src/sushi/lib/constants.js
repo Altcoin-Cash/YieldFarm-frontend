@@ -134,4 +134,30 @@ export const supportedPools = [
     tokenSymbol: 'PEPI',
     icon: '👧',
   },
+  {
+    pid: 3,
+    lpAddresses: {
+      250: '0xd511c71fEaeF2DDF9413cE800dA2e243F65c5DD5', // FTM-PEPE LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
+    },
+    name: 'Pepes Ponzi',
+    symbol: 'FTM-PEPE Spiritswap LP',
+    tokenSymbol: 'PEPE',
+    icon: '🤠',
+  },
+  {
+    pid: 4,
+    lpAddresses: {
+      250: '0x1F4b9B645088a84DA7114b0B6B414831AF9FAe5f', // FTM-PEPI LP Token Address, 42 rewards
+    },
+    tokenAddresses: {
+      250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPI"
+    },
+    name: 'Love Affair',
+    symbol: 'PEPE-PEPI Spooky LP',
+    tokenSymbol: 'PEPI',
+    icon: '👩‍❤️‍💋‍👨',
+  },
 ]
