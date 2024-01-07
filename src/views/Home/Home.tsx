@@ -29,9 +29,14 @@ const Home: React.FC = () => {
       <StyledInfo>
         BONUS MULTIPLIER=10 ongoing until FTM block 75000000
       </StyledInfo>
-      <StyledInfo></StyledInfo>
-      <StyledInfo>PEPE: 0xD350EcD60912913cc15d312ef38adECa909eCDD5</StyledInfo>
-      <StyledInfo>PEPI: 0x71fd222475361258d09a01d71fd71e4d7a0265be</StyledInfo>
+      <Container>
+        <StyledInfo>
+          PEPE: 0xD350EcD60912913cc15d312ef38adECa909eCDD5
+        </StyledInfo>
+        <StyledInfo>
+          PEPI: 0x71fd222475361258d09a01d71fd71e4d7a0265be
+        </StyledInfo>
+      </Container>
       <Spacer size="lg" />
       <div
         style={{
