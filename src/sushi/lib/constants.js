@@ -150,7 +150,7 @@ export const supportedPools = [
   {
     pid: 4,
     lpAddresses: {
-      250: '0x1F4b9B645088a84DA7114b0B6B414831AF9FAe5f', // FTM-PEPI LP Token Address, 42 rewards
+      250: '0x1F4b9B645088a84DA7114b0B6B414831AF9FAe5f', // PEPE-PEPI LP Token Address, 42 rewards
     },
     tokenAddresses: {
       250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPI"

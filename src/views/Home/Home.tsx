@@ -22,8 +22,11 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: PEPI-FTM LP token pool yields 4.20x more token rewards
-        per block.
+        🏆<b>Pro Tip</b>: PEPI-FTM & PEPI-PEPE LP token pool yields 4.20x more
+        token rewards per block. Love affair APY is secret 👩‍❤️‍💋‍👨 BONUS
+        MULTIPLIER=10 ongoing until FTM block 75000000 PEPE:
+        0xD350EcD60912913cc15d312ef38adECa909eCDD5 PEPI:
+        0x71fd222475361258d09a01d71fd71e4d7a0265be
       </StyledInfo>
       <Spacer size="lg" />
       <div
