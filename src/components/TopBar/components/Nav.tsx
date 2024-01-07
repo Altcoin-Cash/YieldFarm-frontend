@@ -26,7 +26,10 @@ const Nav: React.FC = () => {
       >
         Telegram
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://swapin.co/" target="_blank">
+      <StyledAbsoluteLink
+        href="https://dexscreener.com/search?q=0x71Fd222475361258D09a01D71Fd71E4d7a0265be"
+        target="_blank"
+      >
         PEPE
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
@@ -35,10 +38,7 @@ const Nav: React.FC = () => {
       >
         PEPI
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink
-        href="https://dexscreener.com/search?q=0x71Fd222475361258D09a01D71Fd71E4d7a0265be"
-        target="_blank"
-      >
+      <StyledAbsoluteLink href="https://swapin.co/" target="_blank">
         Swapin.co
       </StyledAbsoluteLink>
     </StyledNav>
