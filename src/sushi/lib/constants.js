@@ -160,4 +160,17 @@ export const supportedPools = [
     tokenSymbol: 'PEPI',
     icon: '👩‍❤️‍💋‍👨',
   },
+  {
+    pid: 5,
+    lpAddresses: {
+      250: '0x06cB7fEcf5E50cfd8729e1c4f5E75e7e7332EcFB', // FTM-YURI LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa', // Token, "YURI"
+    },
+    name: 'We Are All YURI',
+    symbol: 'FTM-YURI Spooky LP',
+    tokenSymbol: 'YURI',
+    icon: '🤠🐂',
+  },
 ]
