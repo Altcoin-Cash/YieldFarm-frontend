@@ -171,6 +171,6 @@ export const supportedPools = [
     name: 'We Are All YURI',
     symbol: 'FTM-YURI Spooky LP',
     tokenSymbol: 'YURI',
-    icon: '🤠🐂',
+    icon: '👻',
   },
 ]
