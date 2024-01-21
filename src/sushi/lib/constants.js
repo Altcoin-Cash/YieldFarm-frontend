@@ -227,5 +227,18 @@ export const supportedPools = [
     tokenSymbol: 'YURI',
     icon: '👻',
   },
+  {
+    pid: 10,
+    lpAddresses: {
+      250: '0xecad5e6f290504ebda51ce4d63634a8f6651974d', // FTM-TOMB+ LP Token Address
+    },
+    tokenAddresses: {
+      250: '0xE53aFA646d48E9EF68fCd559F2a598880a3f1370', // Token, "TOMB+"
+    },
+    name: 'We Are All YURI',
+    symbol: 'FTM-TOMB+ Equalizer LP',
+    tokenSymbol: 'TOMB+',
+    icon: '👻',
+  },
   
 ]
