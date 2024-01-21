@@ -56,112 +56,7 @@ export const contractAddresses = {
 }
 
 export const supportedPools = [
-  //  {
-  //    pid: 0,
-  //    lpAddresses: {
-  //      2330: '', //  LP Token Address,
-  //    },
-  //    tokenAddresses: {
-  //      2330: '0x8439881E54A9cA06daFcE50ce342754DfF5Cc0E7', // Token, "xPEPI"
-  //   },
-  //   name: 'Pepes Ponzi',
-  //   symbol: 'xPEPI',
-  //   tokenSymbol: 'xPEPI',
-  //   icon: '👱',
-  // },
-  // {
-  //   pid: 1,
-  //   lpAddresses: {
-  //     2330: '', //  LP Token Address,
-  //   },
-  //   tokenAddresses: {
-  //     2330: '0xbB1f8B3a73a0B5084aF9a95e748f9d84DdBA6E88', // Token, "PEPI"
-  //   },
-  //   name: 'Pepes Ponzi',
-  //  symbol: 'PEPI',
-  //  tokenSymbol: 'PEPI',
-  //   icon: '👧',
-  //  },
-  //  {
-  //    pid: 2,
-  //    lpAddresses: {
-  //      2330: '', // PEPEToken Address,
-  //    },
-  //    tokenAddresses: {
-  //      2330: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
-  //   },
-  //    name: 'Pepitas Ponzi',
-  //    symbol: 'PEPE',
-  //   tokenSymbol: 'PEPE',
-  //   icon: '🤠',
-  //  },
   {
-    pid: 0,
-    lpAddresses: {
-      250: '0x9AC2837e3427CF78239D1cA09898e475F9E246C3', // FTM-PEPE LP Token Address,
-    },
-    tokenAddresses: {
-      250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
-    },
-    name: 'Pepes Ponzi',
-    symbol: 'FTM-PEPE Swapin LP',
-    tokenSymbol: 'PEPE',
-    icon: '🤠',
-  },
-  {
-    pid: 1,
-    lpAddresses: {
-      250: '0x8029488c2A739b43aC2AB89e83B9a6738a531f72', // FTM-PEPE LP Token Address,
-    },
-    tokenAddresses: {
-      250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
-    },
-    name: 'Pepes Ponzi',
-    symbol: 'FTM-PEPE Spooky LP',
-    tokenSymbol: 'PEPE',
-    icon: '🤠',
-  },
-  {
-    pid: 2,
-    lpAddresses: {
-      250: '0x642dcea82AE9fBD28f0eC781A1B31f79fC69566F', // FTM-PEPI LP Token Address,
-    },
-    tokenAddresses: {
-      250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPI"
-    },
-    name: 'Pepitas Ponzi',
-    symbol: 'FTM-PEPI Spooky LP',
-    tokenSymbol: 'PEPI',
-    icon: '👧',
-  },
-  {
-    pid: 3,
-    lpAddresses: {
-      250: '0xd511c71fEaeF2DDF9413cE800dA2e243F65c5DD5', // FTM-PEPE LP Token Address,
-    },
-    tokenAddresses: {
-      250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
-    },
-    name: 'Pepes Ponzi',
-    symbol: 'FTM-PEPE Spiritswap LP',
-    tokenSymbol: 'PEPE',
-    icon: '🤠',
-  },
-  {
-    pid: 4,
-    lpAddresses: {
-      250: '0x1F4b9B645088a84DA7114b0B6B414831AF9FAe5f', // PEPE-PEPI LP Token Address, 42 rewards
-    },
-    tokenAddresses: {
-      250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPI"
-    },
-    name: 'Love Affair',
-    symbol: 'PEPE-PEPI Spooky LP',
-    tokenSymbol: 'PEPI',
-    icon: '👩‍❤️‍💋‍👨',
-  },
-  {
-    pid: 5,
     lpAddresses: {
       250: '0x06cB7fEcf5E50cfd8729e1c4f5E75e7e7332EcFB', // FTM-YURI LP Token Address,
     },
@@ -172,5 +67,44 @@ export const supportedPools = [
     symbol: 'FTM-YURI Spooky LP',
     tokenSymbol: 'YURI',
     icon: '👻',
+  },
+  {
+    pid: 1,
+    lpAddresses: {
+      250: '0xfd537fD130518f23F49B02925DB5f1AA1669E537', // YURI-TOMB+ LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0xE53aFA646d48E9EF68fCd559F2a598880a3f1370', // Token, "TOMB+"
+    },
+    name: 'We Are All YURI',
+    symbol: 'YURI-TOMB+ Spooky LP',
+    tokenSymbol: 'TOMB+',
+    icon: '👻',
+  },
+  {
+    pid: 2,
+    lpAddresses: {
+      250: '0x2C53F1740D305fF2039592C7A027F3e843B9CaC2', // YURI-PEPI LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPI"
+    },
+    name: 'We Are All YURI',
+    symbol: 'YURI-PEPI Spooky LP',
+    tokenSymbol: 'PEPI',
+    icon: '👧',
+  },
+  {
+    pid: 3,
+    lpAddresses: {
+      250: '0x8FB3F4fe92De77CED308Dc2c4E48A893DA6C6737', // YURI-PEPE LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
+    },
+    name: 'We Are All YURI',
+    symbol: 'YURI-PEPE Spiritswap LP',
+    tokenSymbol: 'PEPE',
+    icon: '🤠',
   },
 ]
