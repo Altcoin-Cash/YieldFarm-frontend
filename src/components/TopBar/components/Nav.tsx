@@ -27,13 +27,13 @@ const Nav: React.FC = () => {
         Telegram
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://dexscreener.com/search?q=0x71Fd222475361258D09a01D71Fd71E4d7a0265be"
+        href="https://www.geckoterminal.com/ftm/pools/0x8029488c2a739b43ac2ab89e83b9a6738a531f72"
         target="_blank"
       >
         PEPE
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://dexscreener.com/search?q=0xD350EcD60912913cc15d312ef38adECa909eCDD5"
+        href="https://www.geckoterminal.com/ftm/pools/0x642dcea82ae9fbd28f0ec781a1b31f79fc69566f"
         target="_blank"
       >
         PEPI
