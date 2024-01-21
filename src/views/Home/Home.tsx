@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="YURI+ Farm is Ready!"
+        title="YURI+ Farm is Ready after block 74700000!"
         subtitle="Stake YURI LP tokens to claim your very own YURI+!"
       />
 
