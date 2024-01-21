@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={logo} height={100} />}
         title="YURI+ Farm is Ready after block 74700000!"
-        subtitle="Stake YURI LP tokens to claim your very own YURI+!"
+        subtitle="Stake YURI LP tokens to claim YURI+!"
       />
 
       <Container>
