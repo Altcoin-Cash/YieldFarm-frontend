@@ -111,7 +111,7 @@ export const supportedPools = [
   {
     pid: 4,
     lpAddresses: {
-      250: '0x2C53F1740D305fF2039592C7A027F3e843B9CaC2', // YURI-PEPI LP Token Address,
+      250: '0x2C53F1740D305fF2039592C7A027F3e843B9CaC2', // YURI-PEPI LP Token Address
     },
     tokenAddresses: {
       250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPI"
