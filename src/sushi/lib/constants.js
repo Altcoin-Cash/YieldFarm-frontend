@@ -104,7 +104,7 @@ export const supportedPools = [
       250: '0xD350EcD60912913cc15d312ef38adECa909eCDD5', // Token, "PEPE"
     },
     name: 'We Are All YURI',
-    symbol: 'YURI-PEPE Spiritswap LP',
+    symbol: 'YURI-PEPE Spooky LP',
     tokenSymbol: 'PEPE',
     icon: '🤠',
   },
