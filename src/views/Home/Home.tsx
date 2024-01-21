@@ -13,9 +13,12 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="YURI+ Farm is Ready after block 74700000!"
+        title="YURI+ Farm is Ready!"
         subtitle="Stake YURI LP tokens to claim YURI+!"
       />
+      <StyledInfo>
+        You can add LP now, rewards start at block 74700000
+      </StyledInfo>
 
       <Container>
         <Balances />
