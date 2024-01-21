@@ -11,35 +11,29 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/farms">
         Menu
       </StyledLink>
-      <StyledAbsoluteLink href="https://discord.gg/PT2tDQpRe4" target="_blank">
+      <StyledAbsoluteLink href="https://discord.gg/w9ttbzg4" target="_blank">
         Discord
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink
-        href="https://twitter.com/PepeTokensFam"
-        target="_blank"
-      >
+      <StyledAbsoluteLink href="https://twitter.com/yeh_on_ftm" target="_blank">
         Twitter
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink
-        href="https://t.me/PepeTokensOfficial"
-        target="_blank"
-      >
+      <StyledAbsoluteLink href="https://t.me/YuriYeh" target="_blank">
         Telegram
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://dexscreener.com/search?q=0x71Fd222475361258D09a01D71Fd71E4d7a0265be"
+        href="https://dexscreener.com/fantom/0x06cb7fecf5e50cfd8729e1c4f5e75e7e7332ecfb"
         target="_blank"
       >
-        PEPE
+        YURI
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://dexscreener.com/search?q=0xD350EcD60912913cc15d312ef38adECa909eCDD5"
+        href="https://dexscreener.com/search?q="
         target="_blank"
       >
         YURI+
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://swapin.co/" target="_blank">
-        Swapin.co
+      <StyledAbsoluteLink href="https://tombplus.com/" target="_blank">
+        Tomb+
       </StyledAbsoluteLink>
     </StyledNav>
   )
