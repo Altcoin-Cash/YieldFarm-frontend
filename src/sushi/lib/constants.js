@@ -57,6 +57,7 @@ export const contractAddresses = {
 
 export const supportedPools = [
   {
+    pid: 0,
     lpAddresses: {
       250: '0x06cB7fEcf5E50cfd8729e1c4f5E75e7e7332EcFB', // FTM-YURI LP Token Address,
     },
