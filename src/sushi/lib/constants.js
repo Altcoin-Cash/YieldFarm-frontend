@@ -173,4 +173,59 @@ export const supportedPools = [
     tokenSymbol: 'YURI',
     icon: '👻',
   },
+  {
+    pid: 6,
+    lpAddresses: {
+      250: '0x8a8fdfc324884cf4a3f7dd25c26c8fdfa72bd576', // FTM-THC LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0x479673391b3818f5e3ED2fa69A58e13d685BEcf6', // Token, "THC"
+    },
+    name: 'Fantom Degenerates',
+    symbol: 'FTM-THC Spooky LP',
+    tokenSymbol: 'THC',
+    icon: '😈',
+  },
+  {
+    pid: 7,
+    lpAddresses: {
+      250: '0x4bbecd638188ed3f871bf44422f4016c22f2de3a', // FTM-VERSUS LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0xe816B19b673088C02F3c9e03bC4A66E1eF676CF7', // Token, "VERSUS"
+    },
+    name: 'Fantom Degenerates',
+    symbol: 'FTM-VERSUS Spooky LP',
+    tokenSymbol: 'VERSUS',
+    icon: '😈',
+  },
+
+  
+  {
+    pid: 8,
+    lpAddresses: {
+      250: '0x8FB3F4fe92De77CED308Dc2c4E48A893DA6C6737', // YURI-PEPE LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa', // Token, "YURI"
+    },
+    name: 'We Are All YURI',
+    symbol: 'YURI-PEPE Spooky LP',
+    tokenSymbol: 'YURI',
+    icon: '👻',
+  },
+  {
+    pid: 9,
+    lpAddresses: {
+      250: '0x2C53F1740D305fF2039592C7A027F3e843B9CaC2', // YURI-PEPI LP Token Address
+    },
+    tokenAddresses: {
+      250: '0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa', // Token, "YURI"
+    },
+    name: 'We Are All YURI',
+    symbol: 'YURI-PEPI Spooky LP',
+    tokenSymbol: 'YURI',
+    icon: '👻',
+  },
+  
 ]
