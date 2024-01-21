@@ -21,7 +21,7 @@ import { CHAIN_ID } from '../../../sushi/lib/constants'
 interface StakeProps {}
 
 const StakeSushi: React.FC<StakeProps> = ({}) => {
-  const tokenName = 'PEPI'
+  const tokenName = 'YURI+'
   const [requestedApproval, setRequestedApproval] = useState(false)
 
   const allowance = useAllowanceStaking()
@@ -60,14 +60,14 @@ const StakeSushi: React.FC<StakeProps> = ({}) => {
           <StyledCardHeader>
             <CardIcon>👧👨🏻‍🍳</CardIcon>
             <Value value={getBalanceNumber(tokenBalance)} />
-            <Label text={`PEPI Tokens Available`} />
+            <Label text={`YURI+ Tokens Available`} />
           </StyledCardHeader>
           <StyledCardActions>
             {!allowance.toNumber() ? (
               <Button
                 disabled={requestedApproval}
                 onClick={handleApprove}
-                text={`Approve PEPI`}
+                text={`Approve YURI+`}
               />
             ) : (
               <>

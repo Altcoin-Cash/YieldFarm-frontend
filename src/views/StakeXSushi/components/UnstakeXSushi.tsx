@@ -46,7 +46,7 @@ const UnstakeXSushi: React.FC<HarvestProps> = ({ lpContract }) => {
           <StyledCardActions>
             <Button
               disabled={!xSushiBalance.toNumber() || pendingTx}
-              text={pendingTx ? 'Converting to PEPI' : 'Convert to PEPI'}
+              text={pendingTx ? 'Converting to YURI+' : 'Convert to YURI+'}
               onClick={async () => {
                 setPendingTx(true)
                 await onPresentLeave()

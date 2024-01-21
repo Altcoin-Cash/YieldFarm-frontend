@@ -36,7 +36,7 @@ const Nav: React.FC = () => {
         href="https://dexscreener.com/search?q=0xD350EcD60912913cc15d312ef38adECa909eCDD5"
         target="_blank"
       >
-        PEPI
+        YURI+
       </StyledAbsoluteLink>
       <StyledAbsoluteLink href="https://swapin.co/" target="_blank">
         Swapin.co

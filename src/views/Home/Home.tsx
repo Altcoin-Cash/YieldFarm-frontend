@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="PEPITA Farm is Ready!"
-        subtitle="Stake PEPE LP tokens to claim your very own PEPI!"
+        title="YURI+ Farm is Ready!"
+        subtitle="Stake PEPE LP tokens to claim your very own YURI+!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: PEPI-FTM & PEPI-PEPE LP token pool yields 4.20x more
+        🏆<b>Pro Tip</b>: YURI+-FTM & YURI+-PEPE LP token pool yields 4.20x more
         token rewards per block.
       </StyledInfo>
       <StyledInfo>Love affair APY is secret 👩‍❤️‍💋‍👨</StyledInfo>
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
       </StyledInfo>
       <Spacer size="lg" />
       <StyledInfo>PEPE: 0xD350EcD60912913cc15d312ef38adECa909eCDD5</StyledInfo>
-      <StyledInfo>PEPI: 0x71fd222475361258d09a01d71fd71e4d7a0265be</StyledInfo>
+      <StyledInfo>YURI+: 0x71fd222475361258d09a01d71fd71e4d7a0265be</StyledInfo>
 
       <Spacer size="lg" />
       <div

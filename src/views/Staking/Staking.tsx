@@ -24,8 +24,8 @@ const Staking: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={chef} height="120" />}
-                subtitle="Welcome to the Pepita Bar, stake PEPI to earn PEPI."
-                title="Pepita is girlfriend if Pepe!"
+                subtitle="Welcome to the Yuri+ Bar, stake YURI+ to earn YURI+."
+                title="Yuri+ is girlfriend if Pepe!"
               />
             </Route>
             <StakeXSushi />

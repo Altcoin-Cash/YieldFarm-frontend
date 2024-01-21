@@ -26,7 +26,7 @@ export const addressMap = {
   uniswapFactory: '',
   uniswapFactoryV2: '0x347aAc6D939f98854110Ff48dC5B7beB52D86445',
   PEPE: '0xD350EcD60912913cc15d312ef38adECa909eCDD5',
-  PEPI: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be',
+  YURI+: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be',
   WETH: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
   UNIRouter: '0xae168Ce47cebca9abbC5107a58df0532f1afa4d6',
 }
@@ -42,10 +42,10 @@ export const CHAIN_ID = 250
 
 export const contractAddresses = {
   sushi: {
-    250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // PEPI, PepitaV2_flattened.sol
+    250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // YURI+, Yuri+V2_flattened.sol
   },
   masterChef: {
-    250: '0x21980220ba546B0579AF060D502465e664d17b88', // Pepitamaster
+    250: '0x21980220ba546B0579AF060D502465e664d17b88', // Yuri+master
   },
   weth: {
     250: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83', // wftm
@@ -84,14 +84,14 @@ export const supportedPools = [
   {
     pid: 2,
     lpAddresses: {
-      250: '0x2C53F1740D305fF2039592C7A027F3e843B9CaC2', // YURI-PEPI LP Token Address,
+      250: '0x2C53F1740D305fF2039592C7A027F3e843B9CaC2', // YURI-YURI+ LP Token Address,
     },
     tokenAddresses: {
-      250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "PEPI"
+      250: '0x71Fd222475361258D09a01D71Fd71E4d7a0265be', // Token, "YURI+"
     },
     name: 'We Are All YURI',
-    symbol: 'YURI-PEPI Spooky LP',
-    tokenSymbol: 'PEPI',
+    symbol: 'YURI-YURI+ Spooky LP',
+    tokenSymbol: 'YURI+',
     icon: '👧',
   },
   {
