@@ -4,28 +4,37 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledLink target="_blank" href="https://chainlist.org/chain/250">
-        Current: FTM
+      Contracts:
+      <StyledLink
+        target="_blank"
+        href="https://ftmscan.com/token/0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa"
+      >
+        YURI
       </StyledLink>
-      Go to:
-      <StyledLink target="_blank" href="https://alt.pepetokens.fun/">
-        ALT Altcoinchain
+      <StyledLink
+        target="_blank"
+        href="https://ftmscan.com/address/0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1"
+      >
+        YURI+
       </StyledLink>
-      <StyledLink target="_blank" href="https://grams.pepetokens.fun/">
-        GRAMS Partychain
+      <StyledLink
+        target="_blank"
+        href="https://ftmscan.com/address/0x7452bf8cb727dc7695fce4793b59a4d9bf19d67c"
+      >
+        Masterchef
       </StyledLink>
-      <StyledLink target="_blank" href="https://etho.pepetokens.fun/">
-        ETHO protocol
+      Addresses:
+      <StyledLink
+        target="_blank"
+        href="https://ftmscan.com/address/0xfabfc2ed994c698ceed5415acd2d786aefbd5f56"
+      >
+        Deployer Wallet
       </StyledLink>
-      Coming:
-      <StyledLink target="_blank" href="https://chainlist.org/chain/800001">
-        OCTA
-      </StyledLink>
-      <StyledLink target="_blank" href="https://chainlist.org/chain/1987">
-        EGEM
-      </StyledLink>
-      <StyledLink target="_blank" href="https://chainlist.org/chain/2000">
-        DOGE
+      <StyledLink
+        target="_blank"
+        href="https://ftmscan.com/address/0x434774f2ae60d07a2044301bb67e4d4c0af04e4a"
+      >
+        Community Wallet
       </StyledLink>
     </StyledNav>
   )
