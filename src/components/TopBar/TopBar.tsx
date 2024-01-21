@@ -23,7 +23,7 @@ const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
           marginBottom: '10px',
         }}
       >
-        Yuri+ is Pepe's Girlfriend. We are PepeTokensFamily!{' '}
+        We Are All YURI!{' '}
       </div>
       <Container size="lg">
         <StyledTopBarInner>

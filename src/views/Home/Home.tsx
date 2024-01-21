@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={logo} height={120} />}
         title="YURI+ Farm is Ready!"
-        subtitle="Stake PEPE LP tokens to claim your very own YURI+!"
+        subtitle="Stake YURI LP tokens to claim your very own YURI+!"
       />
 
       <Container>
@@ -22,16 +22,15 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: YURI+-FTM & YURI+-PEPE LP token pool yields 4.20x more
-        token rewards per block.
+        🏆<b>Pro Tip</b>: YURI-FTM LP token pool yields 4.20x more token rewards
+        per block.
       </StyledInfo>
-      <StyledInfo>Love affair APY is secret 👩‍❤️‍💋‍👨</StyledInfo>
       <StyledInfo>
         BONUS MULTIPLIER=10 ongoing until FTM block 75000000
       </StyledInfo>
       <Spacer size="lg" />
-      <StyledInfo>PEPE: 0xD350EcD60912913cc15d312ef38adECa909eCDD5</StyledInfo>
-      <StyledInfo>YURI+: 0x71fd222475361258d09a01d71fd71e4d7a0265be</StyledInfo>
+      <StyledInfo>YURI: 0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa</StyledInfo>
+      <StyledInfo>YURI+: coming</StyledInfo>
 
       <Spacer size="lg" />
       <div
