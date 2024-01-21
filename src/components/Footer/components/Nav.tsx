@@ -4,7 +4,13 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      Contracts:
+      <div
+        style={{
+          color: 'white',
+        }}
+      >
+        Contracts:{' '}
+      </div>
       <StyledLink
         target="_blank"
         href="https://ftmscan.com/token/0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa"
