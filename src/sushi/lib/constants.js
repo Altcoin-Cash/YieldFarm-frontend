@@ -181,7 +181,7 @@ export const supportedPools = [
     tokenAddresses: {
       250: '0x479673391b3818f5e3ED2fa69A58e13d685BEcf6', // Token, "THC"
     },
-    name: 'Fantom Degenerates',
+    name: 'Fantom Degens',
     symbol: 'FTM-THC Spooky LP',
     tokenSymbol: 'THC',
     icon: '😈',
@@ -194,7 +194,7 @@ export const supportedPools = [
     tokenAddresses: {
       250: '0xe816B19b673088C02F3c9e03bC4A66E1eF676CF7', // Token, "VERSUS"
     },
-    name: 'Fantom Degenerates',
+    name: 'Fantom Degens',
     symbol: 'FTM-VERSUS Spooky LP',
     tokenSymbol: 'VERSUS',
     icon: '😈',
