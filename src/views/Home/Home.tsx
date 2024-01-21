@@ -30,7 +30,7 @@ const Home: React.FC = () => {
       </StyledInfo>
       <Spacer size="lg" />
       <StyledInfo>YURI: 0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa</StyledInfo>
-      <StyledInfo>YURI+: coming</StyledInfo>
+      <StyledInfo>YURI+: 0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1</StyledInfo>
 
       <Spacer size="lg" />
       <div
