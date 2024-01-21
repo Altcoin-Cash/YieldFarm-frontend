@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../../assets/img/yuri_logo.png'
+import logo from '../../assets/img/weareallyuri.jpg'
 import Button from '../../components/Button'
 import Container from '../../components/Container'
 import Page from '../../components/Page'
@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <PageHeader
-        icon={<img src={logo} height={120} />}
+        icon={<img src={logo} height={100} />}
         title="YURI+ Farm is Ready after block 74700000!"
         subtitle="Stake YURI LP tokens to claim your very own YURI+!"
       />
