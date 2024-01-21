@@ -6,7 +6,7 @@ const Nav: React.FC = () => {
     <StyledNav>
       <div
         style={{
-          color: 'white',
+          color: '9CC853',
         }}
       >
         Contracts:{' '}
@@ -29,7 +29,14 @@ const Nav: React.FC = () => {
       >
         Masterchef
       </StyledLink>
-      Addresses:
+      <div
+        style={{
+          color: '9CC853',
+        }}
+      >
+        Addresses:{' '}
+      </div>
+
       <StyledLink
         target="_blank"
         href="https://ftmscan.com/address/0xfabfc2ed994c698ceed5415acd2d786aefbd5f56"
