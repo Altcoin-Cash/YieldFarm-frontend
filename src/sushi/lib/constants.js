@@ -82,19 +82,19 @@ export const supportedPools = [
     tokenSymbol: 'TOMB+',
     icon: '👻',
   },
-  {
-    pid: 2,
-    lpAddresses: {
-      250: '', // YURI-YURI+ LP Token Address,
-    },
-    tokenAddresses: {
-      250: '0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1', // Token, "YURI+"
-    },
-    name: 'We Are All YURI',
-    symbol: 'YURI-YURI+ Spooky LP',
-    tokenSymbol: 'YURI+',
-    icon: '👻',
-  },
+  //{
+  //  pid: 2,
+  //  lpAddresses: {
+  //    250: '', // YURI-YURI+ LP Token Address,
+  //  },
+  //  tokenAddresses: {
+  //    250: '0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1', // Token, "YURI+"
+  //  },
+  //  name: 'We Are All YURI',
+  //  symbol: 'YURI-YURI+ Spooky LP',
+  //  tokenSymbol: 'YURI+',
+  //  icon: '👻',
+  //},
   {
     pid: 3,
     lpAddresses: {
