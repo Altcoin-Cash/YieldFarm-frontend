@@ -121,4 +121,17 @@ export const supportedPools = [
     tokenSymbol: 'PEPI',
     icon: '👧',
   },
+  {
+    pid: 5,
+    lpAddresses: {
+      250: '0xb59aae70e7e292c2671979e25dddcd4d510b2874', // YURI-YURI+ LP Token Address
+    },
+    tokenAddresses: {
+      250: '0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1', // Token, "YURI+"
+    },
+    name: 'We Are All YURI',
+    symbol: 'YURI-YURI+ Spooky LP',
+    tokenSymbol: 'YURI+',
+    icon: '👧',
+  },
 ]
