@@ -14,7 +14,7 @@ const Nav: React.FC = () => {
       <StyledAbsoluteLink href="https://discord.gg/w9ttbzg4" target="_blank">
         Discord
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://twitter.com/yeh_on_ftm" target="_blank">
+      <StyledAbsoluteLink href="https://twitter.com/YuriYeh_ftm" target="_blank">
         Twitter
       </StyledAbsoluteLink>
       <StyledAbsoluteLink href="https://t.me/YuriYeh" target="_blank">
