@@ -14,7 +14,10 @@ const Nav: React.FC = () => {
       <StyledAbsoluteLink href="https://discord.gg/w9ttbzg4" target="_blank">
         Discord
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://twitter.com/YuriYeh_ftm" target="_blank">
+      <StyledAbsoluteLink
+        href="https://twitter.com/YuriYeh_ftm"
+        target="_blank"
+      >
         Twitter
       </StyledAbsoluteLink>
       <StyledAbsoluteLink href="https://t.me/YuriYeh" target="_blank">
@@ -27,7 +30,7 @@ const Nav: React.FC = () => {
         YURI
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://dexscreener.com/search?q="
+        href="https://www.geckoterminal.com/ftm/pools/0xb2ab2dc017985556533d6bb14e767a85d4b08382"
         target="_blank"
       >
         YURI+
