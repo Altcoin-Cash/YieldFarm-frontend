@@ -16,17 +16,15 @@ const Home: React.FC = () => {
         title="YURI+ Farm is Ready!"
         subtitle="Stake YURI LP tokens to claim YURI+!"
       />
-      <StyledInfo>
-        You can add LP now, rewards start at block 74700000
-      </StyledInfo>
+      <StyledInfo>Add your LP's now!</StyledInfo>
 
       <Container>
         <Balances />
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: YURI-FTM LP token pool yields 4.20x more token rewards
-        per block.
+        🏆<b>Pro Tip</b>: YURI-FTM and YURI-YURI+ LP token pool yields 4.20x
+        more token rewards per block.
       </StyledInfo>
       <StyledInfo>
         BONUS MULTIPLIER=10 ongoing until FTM block 75000000
