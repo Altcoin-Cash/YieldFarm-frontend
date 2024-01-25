@@ -82,19 +82,32 @@ export const supportedPools = [
     tokenSymbol: 'TOMB+',
     icon: '👻',
   },
-  //{
-  //  pid: 2,
-  //  lpAddresses: {
-  //    250: '', // YURI-YURI+ LP Token Address,
-  //  },
-  //  tokenAddresses: {
-  //    250: '0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1', // Token, "YURI+"
-  //  },
-  //  name: 'We Are All YURI',
-  //  symbol: 'YURI-YURI+ Spooky LP',
-  //  tokenSymbol: 'YURI+',
-  //  icon: '👻',
-  //},
+  {
+    pid: 6,
+    lpAddresses: {
+      250: '0xb2Ab2dc017985556533d6bB14e767A85d4B08382', // FTM-YURI+ LP Token Address,
+    },
+    tokenAddresses: {
+      250: '0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1', // Token, "YURI+"
+    },
+    name: 'We Are All YURI',
+    symbol: 'FTM-YURI+ Spooky LP',
+    tokenSymbol: 'YURI+',
+    icon: '👻',
+  },
+  {
+    pid: 5,
+    lpAddresses: {
+      250: '0xb59aae70e7e292c2671979e25dddcd4d510b2874', // YURI-YURI+ LP Token Address
+    },
+    tokenAddresses: {
+      250: '0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1', // Token, "YURI+"
+    },
+    name: 'We Are All YURI',
+    symbol: 'YURI-YURI+ Spooky LP',
+    tokenSymbol: 'YURI+',
+    icon: '👻',
+  },
   {
     pid: 3,
     lpAddresses: {
@@ -120,18 +133,5 @@ export const supportedPools = [
     symbol: 'YURI-PEPI Spooky LP',
     tokenSymbol: 'PEPI',
     icon: '👧',
-  },
-  {
-    pid: 5,
-    lpAddresses: {
-      250: '0xb59aae70e7e292c2671979e25dddcd4d510b2874', // YURI-YURI+ LP Token Address
-    },
-    tokenAddresses: {
-      250: '0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1', // Token, "YURI+"
-    },
-    name: 'We Are All YURI',
-    symbol: 'YURI-YURI+ Spooky LP',
-    tokenSymbol: 'YURI+',
-    icon: '👻',
   },
 ]
