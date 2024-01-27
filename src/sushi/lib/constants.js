@@ -282,6 +282,19 @@ export const supportedPools = [
 //    tokenSymbol: 'BACON',
 //    icon: '🥓',
 //  },
+ {
+    pid: 14,
+    lpAddresses: {
+      250: '0x51cb0C45E17D086a08b0394239cd4E9Ddd8FfB75', // FTM-LOVE LP Token Address
+    },
+    tokenAddresses: {
+      250: '0xE388D77715f90Bcf4711EbDB6733A86A7ad79C36', // Token, "LOVE"
+    },
+    name: 'We are in LOVE',
+    symbol: 'FTM-LOVE Spooky LP',
+    tokenSymbol: 'LOVE',
+    icon: '💕',
+  },
  
   
 ]
