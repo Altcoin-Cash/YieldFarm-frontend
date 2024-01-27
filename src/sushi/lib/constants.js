@@ -240,5 +240,35 @@ export const supportedPools = [
     tokenSymbol: 'TOMB+',
     icon: '👻',
   },
+
+
+  
+  {
+    pid: 11,
+    lpAddresses: {
+      250: '0xb2b93d2aec7a01361f54669265ead859463845b0', // FTM-BEER LP Token Address
+    },
+    tokenAddresses: {
+      250: '0x94ba6241bc7e6f7f24a5b95fe6726b31c74881ab', // Token, "BEER"
+    },
+    name: 'Have a BEER',
+    symbol: 'FTM-BEER Swapin LP',
+    tokenSymbol: 'BEER',
+    icon: '🍻',
+  },
+ {
+    pid: 12,
+    lpAddresses: {
+      250: '0x865a7135c582e5622f7db331239ef16e271caa70', // FTM-BEER LP Token Address
+    },
+    tokenAddresses: {
+      250: '0x94ba6241bc7e6f7f24a5b95fe6726b31c74881ab', // Token, "BEER"
+    },
+    name: 'Have a BEER',
+    symbol: 'FTM-BEER Spooky LP',
+    tokenSymbol: 'BEER',
+    icon: '🍻',
+  },
+ 
   
 ]
