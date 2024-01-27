@@ -291,7 +291,7 @@ export const supportedPools = [
       250: '0xE388D77715f90Bcf4711EbDB6733A86A7ad79C36', // Token, "LOVE"
     },
     name: 'We are in LOVE',
-    symbol: 'FTM-LOVE Spooky LP',
+    symbol: 'FTM-LOVE Equalizer LP',
     tokenSymbol: 'LOVE',
     icon: '💕',
   },
