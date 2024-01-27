@@ -269,6 +269,19 @@ export const supportedPools = [
     tokenSymbol: 'BEER',
     icon: '🍻',
   },
+ {
+    pid: 13,
+    lpAddresses: {
+      250: '0x2dcb742B815Cb2E2d7d43A736F9880ea6bbC0A9F', // FTM-BACON LP Token Address
+    },
+    tokenAddresses: {
+      250: '0xA623639fc3A6729B1Bb6da68723cc863E2DF804d', // Token, "BACON"
+    },
+    name: 'Crispy Fried BACON',
+    symbol: 'FTM-BACON Spooky LP',
+    tokenSymbol: 'BACON',
+    icon: '🥓',
+  },
  
   
 ]
