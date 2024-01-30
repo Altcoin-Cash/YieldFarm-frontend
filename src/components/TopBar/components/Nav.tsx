@@ -22,7 +22,7 @@ const Nav: React.FC = () => {
         Discord
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://t.me/PepeTokensOfficial"
+        href="https://t.me/PartyPepe"
         target="_blank"
       >
         Telegram
