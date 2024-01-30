@@ -305,7 +305,7 @@ export const supportedPools = [
       250: '0x2598c30330D5771AE9F983979209486aE26dE875', // Token, "AI"
     },
     name: 'Interchain Any Inu',
-    symbol: 'FTM-AI Spooky LP',
+    symbol: 'FTM-AI Spiritswap LP',
     tokenSymbol: 'AI',
     icon: '💕',
   },
