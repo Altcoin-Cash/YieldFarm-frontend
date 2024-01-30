@@ -296,5 +296,18 @@ export const supportedPools = [
     icon: '💕',
   },
  
+ {
+    pid: 15,
+    lpAddresses: {
+      250: '0xEB81271220E3e24b5bbC1c5275Bf81205C64f262', // FTM-AI LP Token Address
+    },
+    tokenAddresses: {
+      250: '0x2598c30330D5771AE9F983979209486aE26dE875', // Token, "AI"
+    },
+    name: 'Interchain Any Inu',
+    symbol: 'FTM-AI Spooky LP',
+    tokenSymbol: 'AI',
+    icon: '💕',
+  },
   
 ]
