@@ -26,9 +26,6 @@ const Home: React.FC = () => {
         🏆<b>Pro Tip</b>: YURI-FTM and YURI-YURI+ LP token pool yields 4.20x
         more token rewards per block.
       </StyledInfo>
-      <StyledInfo>
-        BONUS MULTIPLIER=10 ongoing until FTM block 75000000
-      </StyledInfo>
       <Spacer size="lg" />
       <StyledInfo>YURI: 0xeF1608b8B01797Df5d46755f51fb126f21D0e7fa</StyledInfo>
       <StyledInfo>YURI+: 0x3b4f6bac86e3fd769d075c647d3b98b2af4375e1</StyledInfo>
