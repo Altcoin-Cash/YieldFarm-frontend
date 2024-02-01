@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       </StyledInfo>
       <StyledInfo>Love affair APY is secret 👩‍❤️‍💋‍👨</StyledInfo>
       <StyledInfo>
-        BONUS MULTIPLIER=10 ongoing until FTM block 75000000
+        BONUS MULTIPLIER finished at FTM block 75000000
       </StyledInfo>
       <Spacer size="lg" />
       <StyledInfo>PEPE: 0xD350EcD60912913cc15d312ef38adECa909eCDD5</StyledInfo>
